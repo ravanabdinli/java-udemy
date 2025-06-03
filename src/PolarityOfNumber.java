@@ -7,7 +7,7 @@ public class PolarityOfNumber {
 
         System.out.print("Ədədi daxil et:");
 
-        float eded = scanner.nextFloat();
+        double eded = scanner.nextDouble();
         if (eded > 0) {
             System.out.println("Ədəd musbetdir.");
         } else if (eded < 0) {
